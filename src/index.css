@@ -1,0 +1,127 @@
+body {
+    padding: 20px;
+    margin: 0;
+  }
+  h1, h2, p, ul, li {
+    font-family: sans-serif;
+  }
+  ul.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+  }
+  ul.header {
+    background-color: #111;
+    padding: 0;
+  }
+  ul.header li a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+  }
+  .content {
+    background-color: #FFF;
+    padding: 20px;
+  }
+  .content h2 {
+    padding: 0;
+    margin: 0;
+  }
+  .content li {
+    margin-bottom: 10px;
+  }
+  .title {
+      text-align: center;
+  }
+  .active {
+    background-color: rgba(255, 37, 37,.5);
+  }
+.home__img {
+  width: 200px;
+  height: 250px;
+  background-image: url('./img/pynchon.jpg');
+}
+.home__book {
+  width: 225px;
+  height: 400px;
+  background-image: url('./img/bedge.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#bedge {
+  background-image: url('./img/bedge.jpeg');
+  width: 225px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 2px solid red;
+}
+#v {
+  background-image: url('./img/v.jpeg');
+  width: 225px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 2px solid red;
+}
+#clot {
+  background-image: url('./img/clot49.jpeg');
+  width: 225px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 2px solid red;
+}
+#grainbow {
+  background-image: url('./img/grainbow.jpeg');
+  width: 225px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 2px solid red;
+}
+#slearner {
+  background-image: url('./img/slearner.jpeg');
+  width: 225px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 2px solid red;
+}
+#vland {
+  background-image: url('./img/vland.jpeg');
+  width: 225px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 2px solid red;
+}
+#mdixon {
+  background-image: url('./img/mdixon.jpeg');
+  width: 225px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 2px solid red;
+}
+#atday {
+  background-image: url('./img/atday.jpeg');
+  width: 225px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 2px solid red;
+}
+#ivice {
+  background-image: url('./img/ivice.jpeg');
+  width: 225px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 2px solid red;
+}
+
+
