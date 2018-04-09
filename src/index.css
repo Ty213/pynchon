@@ -34,6 +34,7 @@ body {
   }
   .title {
       text-align: center;
+      letter-spacing: 1em;
   }
   .active {
     background-color: rgba(255, 37, 37,.5);
@@ -50,78 +51,40 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
 }
-
-#bedge {
-  background-image: url('./img/bedge.jpeg');
+.gallery__img {
   width: 225px;
   height: 400px;
   background-repeat: no-repeat;
   background-size: 100%;
   border: 2px solid red;
+}
+#bedge {
+  background-image: url('./img/bedge.jpeg');
 }
 #v {
   background-image: url('./img/v.jpeg');
-  width: 225px;
-  height: 400px;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  border: 2px solid red;
 }
 #clot {
   background-image: url('./img/clot49.jpeg');
-  width: 225px;
-  height: 400px;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  border: 2px solid red;
 }
 #grainbow {
   background-image: url('./img/grainbow.jpeg');
-  width: 225px;
-  height: 400px;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  border: 2px solid red;
+
 }
 #slearner {
   background-image: url('./img/slearner.jpeg');
-  width: 225px;
-  height: 400px;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  border: 2px solid red;
 }
 #vland {
   background-image: url('./img/vland.jpeg');
-  width: 225px;
-  height: 400px;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  border: 2px solid red;
 }
 #mdixon {
-  background-image: url('./img/mdixon.jpeg');
-  width: 225px;
-  height: 400px;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  border: 2px solid red;
+  background-image: url('./img/mdixon.jpeg')
 }
 #atday {
   background-image: url('./img/atday.jpeg');
-  width: 225px;
-  height: 400px;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  border: 2px solid red;
 }
 #ivice {
   background-image: url('./img/ivice.jpeg');
-  width: 225px;
-  height: 400px;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  border: 2px solid red;
 }
 
 
