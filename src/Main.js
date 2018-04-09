@@ -15,9 +15,15 @@ class Main extends Component {
             <div>
             <h1 className="title">Thomas Pynchon</h1>
             <ul className="header">
+                <div>
                 <li><NavLink exact to="/">Home</NavLink></li>
+                </div>
+                <div>
                 <li><NavLink to="/work">Work</NavLink></li>
+                </div>
+                <div>
                 <li><NavLink to="/info">Info</NavLink></li>
+                </div>
             </ul>
             <div className="content">
                 <Route exact path="/" component={Home}/>

@@ -1,9 +1,13 @@
 body {
     padding: 20px;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
   }
-  h1, h2, p, ul, li {
-    font-family: sans-serif;
+  .header {
+    text-align: center;    
+  }
+  .header div {
+    display: inline;
   }
   ul.header li {
     display: inline;
@@ -11,11 +15,10 @@ body {
     margin: 0;
   }
   ul.header {
-    background-color: #111;
     padding: 0;
   }
   ul.header li a {
-    color: #FFF;
+    color: black;
     font-weight: bold;
     text-decoration: none;
     padding: 20px;
@@ -37,20 +40,46 @@ body {
       letter-spacing: 1em;
   }
   .active {
-    background-color: rgba(255, 37, 37,.5);
+    background-color: rgba(255, 37, 37,.8);
+    -webkit-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+      -o-transform: skew(-15deg);
   }
+
+/* HOMEPAGE */
+.home__bio {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
 .home__img {
-  width: 200px;
+  margin: 0 auto;
+  width: 190px;
   height: 250px;
   background-image: url('./img/pynchon.jpg');
 }
 .home__book {
+  margin: 0 auto;
   width: 225px;
-  height: 400px;
+  height: 340px;
   background-image: url('./img/bedge.jpeg');
   background-repeat: no-repeat;
   background-size: 100%;
 }
+.home__latest {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.home__text {
+  float: right;
+}
+
+/* IMAGE GALLERY */
+.quote h3 {
+  text-align: center;
+  color: rgb(63, 63, 63);
+}
+
 .gallery__img {
   width: 225px;
   height: 400px;
@@ -85,6 +114,12 @@ body {
 }
 #ivice {
   background-image: url('./img/ivice.jpeg');
+}
+
+/* INFO PAGE */
+.info__wrapper {
+  padding: 50px;
+  text-align: center;
 }
 
 
